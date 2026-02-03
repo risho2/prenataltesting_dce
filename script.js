@@ -2,11 +2,14 @@ window.onload = function() {
     document.getElementById('consentButton').addEventListener('click', function() {
         // GoogleフォームのURLリスト
         var forms = [
-            "https://docs.google.com/forms/d/16OfeUBrpXP5nXcx-fyquzJn8Iwwm2kFDM2Dbta4h0Lc/viewform",
-            "https://docs.google.com/forms/d/1JHAMlda5N-JTb4aAlG1NBkX0y_tJfEMC-otgm0IqNAo/viewform",
-            "https://docs.google.com/forms/d/1-wlxNPaT6bG_JtviD4WohfKX4Xx-4Nak7KOzaZxUJi8/viewform",
-            "https://docs.google.com/forms/d/1J4wIAijAMr5iMKIjiqliNXWY02NUAYBhrIz2e3TipTY/viewform",
-            "https://docs.google.com/forms/d/1Nx-IGfwAFvV4HdIIWbdU1lXO5h8iW7eWmbXew0EjITI/viewform"
+            "https://docs.google.com/forms/d/e/1FAIpQLSfvgKdkpbo5S2midiFM2IWQmLp_NMOxMDpUTaIWq8sc9FnJEA/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSe6oykAyBTFuOgrpLdO1URF6IAQZ2RSbrhzQXEA0IUBuesuZQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfABvu8eE1ZU06gHe9q2ApN5fS5dhut8UV7kL-eeTJ0b_pfzQ/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdU3XdV5mQDZVirqjupO6MGMj1CJ0j25phUWrB8BJclqJFT7w/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfuw1urbqdQZeqLiJTf8YinQ5yxSlIh3am9c3cAdEcVjRTEHw/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSeACM6YVASGPMu5JLLiu3BVqXhIZGey0idLFAQJIodlk77SDA/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdRslhTRapdJrpY_45XvymIN75TAfhc3G0NJ0pj5Afslonj6A/viewform?usp=header",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfVsdsRLRwGTHEtAi9BChYBYm4iAxdwmFgBrtVZJuSvm4YAgQ/viewform?usp=header"
         ];
 
         // ランダムなURLを選択
@@ -17,3 +20,4 @@ window.onload = function() {
         window.location.href = randomFormUrl;
     });
 };
+
